@@ -1,4 +1,4 @@
-# Conway-s-Game-of-Life
+# Conway-s-Game-of-Life using SFML
 
 This is conway's Game of Life implementaion using SFML and C++
 
