@@ -23,5 +23,6 @@ cd Conway-s-Game-of-Life
 mkdir build
 cd build
 cmake ..
+make
 ./GameofLife
 ```
