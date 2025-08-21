@@ -135,8 +135,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(ScreenWidth, ScreenHeight), "Game of Life");
     window.setFramerateLimit(10);
     GameOfLife game;
-    bool pause = false;
-
+ 
     while (window.isOpen())
     {
         // Process events
