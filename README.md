@@ -16,4 +16,12 @@ https://github.com/user-attachments/assets/613386ba-db6e-4703-b965-92fe01dcb775
  - SFML 2.6.2
  - CMake 3.16 or aboe 
 ## How to Run
-Cmake is set up to download the dependencies and link. 
+Cmake is set up to download the dependencies and link. In terminal run
+```
+git clone https://github.com/EdgarAlamillo/Conway-s-Game-of-Life.git
+cd Conway-s-Game-of-Life
+mkdir build
+cd build
+cmake ..
+./GameofLife
+```
