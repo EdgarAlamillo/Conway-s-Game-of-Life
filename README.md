@@ -1,7 +1,7 @@
 # Conway-s-Game-of-Life using SFML
 
 ## Discription
-This is John Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) implementaion using [SFML 2.6.2](https://www.sfml-dev.org/download/sfml/2.6.2/) and C++ 20. Game of life rules are that if an alive cell has atleast 2 neighbors it lives and if not it dies. With this algorithm it can create some interesting paterns. The program uses unordered sets which has mutiple copies for each state so it is all update smoothly. This implementation has a finite grid (720 x 1280) and allows for drawing with the mouse.
+This is John Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) implementaion using [SFML 2.6.2](https://www.sfml-dev.org/download/sfml/2.6.2/) and C++ 20. Game of life rules are that if an alive cell has atleast 2 neighbors it lives and if not it dies. With this algorithm it can create some interesting paterns. The program uses unordered sets which has mutiple copies for each state so it is all update smoothly. By defualt the simulation starts with a line going across the screen which can be changed if you want as it is in the constructer. This implementation has a finite grid (720 x 1280) and allows for drawing with the mouse.
 
 ## Screenshot
 
